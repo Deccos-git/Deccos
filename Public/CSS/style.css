@@ -1,0 +1,177 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    align-self: center;
+    font-size: 30px;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    color: #2F2C41;
+}
+
+li{
+    font-family: 'Raleway', sans-serif;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    background-color: rgba(47, 44, 65, 0.082);
+    margin: 0px;
+}
+
+#menu li{
+    margin: 15px;
+
+}
+
+#menu-items{
+    display: flex;
+    margin-left: 50px;
+}
+
+#menu-items li{
+    margin: 33px 40px 0px 40px;
+    font-weight: bold;
+}
+
+#header-image{
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin: 0px;
+    background-color: rgb(236, 255, 254);
+}
+
+#Sun{
+    animation-name: sun-animation;
+    animation-duration: 8s;
+    margin-left: 10px;
+}
+
+@keyframes sun-animation{
+    0% {transform: translate(-100px, 100px)}
+    100% {transform: translate(0px, 0px)}
+    from{opacity: 0}
+    to{opacity: 1}
+}
+
+#header-div{
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#header-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#header-svg{
+    margin-top: -250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#IT{
+    color: #42BFB8;
+    font-size: 90px;
+    font-weight: 100;
+}
+
+#met{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #2F2C41;
+    animation-name: impact-animation;
+    animation-duration: 8s;
+    align-self: center;
+    margin-left: -100px;
+}
+
+#sociale{
+    margin: 100px 0px -100px 0px;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: #2F2C41;
+    animation-name: impact-animation;
+    animation-duration: 8s;
+    align-self: center;
+}
+
+#Impact{
+    color: #FF6180;
+    font-size: 120px;
+    font-weight: 100;
+    animation-name: impact-animation;
+    animation-duration: 3s;
+    margin-left: -5px;
+}
+
+@keyframes impact-animation{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+#button{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-button{
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: #2F2C41;
+    margin-top: 0px;
+}
+
+#projects-outer-section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#project-overview{
+    display: flex;
+    justify-content: center;
+}
+
+.project-individual-outer-div{
+    padding: 30px;
+    background-color: rgb(255, 240, 243);
+    border-radius: 5px;
+    margin: 50px;
+    width: 300px;
+    height: auto;
+}
+
+.project-individual-outer-div h3{
+    margin-left: -50px;
+}
+
+.project-individual-outer-div img{
+    margin-right: -100px;
+    box-shadow: 1px 1px 10px rgb(255, 175, 191);
+    padding: 30px;
+}
