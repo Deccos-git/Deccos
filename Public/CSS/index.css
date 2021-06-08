@@ -1,0 +1,182 @@
+#header-section{
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+
+#Sun{
+    animation-name: sun-animation;
+    animation-duration: 8s;
+    margin-left: 10px;
+}
+
+@keyframes sun-animation{
+    0% {transform: translate(-100px, 100px)}
+    100% {transform: translate(0px, 0px)}
+    from{opacity: 0}
+    to{opacity: 1}
+}
+
+#mc-embedded-subscribe-form{
+    width: 100%;
+    background-color: #a7bdbd49;
+    padding: 0px !important;
+}
+
+#header-div{
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#header-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#svg-header{
+    width: 60% !important;
+    height: auto !important;
+    align-self: center;
+}
+
+#IT{
+    color: #42BFB8;
+    font-size: 90px;
+    font-weight: 100;
+}
+
+#met{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #2F2C41;
+    align-self: center;
+}
+
+#sociale{
+    margin: -20px 0px 50px 0px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #2F2C41;
+    align-self: center;
+}
+
+#Impact{
+    color: #d11237;
+    font-size: 120px;
+    font-weight: 100;
+    margin-left: -5px;
+    margin-bottom: 0px;
+}
+
+#CTA-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a7bdbd26;
+    padding: 30px 0px;
+}
+
+#communicate-easier-div{
+    background-color: #a7bdbd26;
+}
+
+.highlight-div{
+    padding: 50px 0px;
+}
+
+.highlight-div li{
+    font-size: 20px;
+    margin: 5px;
+}
+
+#photo-gijs{
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+#maillist-form{
+    padding: 20px;
+    background-color: #a7bdbd26;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    border: 1px solid darkgray;
+}
+
+#under-construction-div img{
+    height: 50px;
+}
+
+#under-construction-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: flex-start;
+}
+
+.highlights-inner-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#maillist-form input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+#button-div-emaillist-form{
+    margin-top: 30px;
+}
+
+.input-div p{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#Path_35{
+    animation: lady 2s linear infinite;
+}
+
+@keyframes lady{
+    0% {top: 0px;}
+    100% {top: -15px;}
+}
+
+#Ellipse_4{
+    animation: sparks 8s infinite;
+}
+
+#Ellipse_5{
+    animation: sparks 14s infinite;
+}
+
+#Ellipse_6{
+    animation: sparks 20s infinite;
+}
+
+@keyframes sparks {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#Path_55{
+    animation: backgrnd 15s infinite
+}
+
+@keyframes backgrnd {
+    0% {fill: rgb(167, 189, 189);}
+    50% {fill: navajowhite;}
+    100% {fill: rgb(167, 189, 189);}
+}

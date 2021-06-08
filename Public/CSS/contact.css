@@ -1,0 +1,45 @@
+#logo-contact {
+    width: 100px !important;
+    margin: 40px 0px 0px 0px;
+}
+
+#contact-meta-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#items-inner-div {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-item-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-item-div img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+#contact-form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a7bdbd26;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+#contact-form-notice{
+    display: none;
+}
+
+#button-message{
+    margin: 20px;
+}
