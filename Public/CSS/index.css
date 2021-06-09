@@ -1,25 +1,9 @@
 #header-section{
-    height: auto;
     width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     display: flex;
+    justify-content: space-evenly;
     margin: 0px;
-    padding-bottom: 30px;
-}
-
-#Sun{
-    animation-name: sun-animation;
-    animation-duration: 8s;
-    margin-left: 10px;
-}
-
-@keyframes sun-animation{
-    0% {transform: translate(-100px, 100px)}
-    100% {transform: translate(0px, 0px)}
-    from{opacity: 0}
-    to{opacity: 1}
+    padding: 120px 0px;
 }
 
 #mc-embedded-subscribe-form{
@@ -28,43 +12,53 @@
     padding: 0px !important;
 }
 
-#header-div{
-    margin-left: 100px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
 #header-text{
+    background-image: url("../images/Web\ 1920\ –\ 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 49%;
+    text-align: center;
+    align-items: center;
+}
+
+#title{
+    font-size: 60px;
+    color: #2F2C41;
+    margin-bottom: 10px;
+}
+
+#button-header{
+    margin-top: 50px;
+}
+
+#svg-div{
+    width: 49%;
 }
 
 #svg-header{
-    width: 60% !important;
+    width: 90% !important;
     height: auto !important;
-    align-self: center;
 }
 
-#IT{
-    color: #42BFB8;
-    font-size: 90px;
-    font-weight: 100;
-}
-
-#met{
-    font-size: 30px;
+#impact{
+    font-size: 40px;
     font-family: 'Raleway', sans-serif;
-    color: #2F2C41;
     align-self: center;
+    animation: impactAnimation 12s infinite;
+    margin-top: 10px;
 }
 
-#sociale{
-    margin: -20px 0px 50px 0px;
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-    color: #2F2C41;
-    align-self: center;
+@keyframes impactAnimation {
+    0% {color: #2F2C41;}
+    100% {color: #d11237;}
+    0% {font-weight: 100;}
+    30% {font-weight: 300;}
+    50% {font-weight: 500;}
+    80% {font-weight: 800;}
+    100% {font-weight: 900;}
 }
 
 #Impact{
@@ -111,7 +105,7 @@
     flex-direction: column;
     align-items: center;
     margin: 30px;
-    border: 1px solid darkgray;
+    border: 1px solid lightgray;
 }
 
 #under-construction-div img{
@@ -145,32 +139,6 @@
     font-weight: bold;
 }
 
-#Path_35{
-    animation: lady 2s linear infinite;
-}
-
-@keyframes lady{
-    0% {top: 0px;}
-    100% {top: -15px;}
-}
-
-#Ellipse_4{
-    animation: sparks 8s infinite;
-}
-
-#Ellipse_5{
-    animation: sparks 14s infinite;
-}
-
-#Ellipse_6{
-    animation: sparks 20s infinite;
-}
-
-@keyframes sparks {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
 #Path_55{
     animation: backgrnd 15s infinite
 }
@@ -180,3 +148,51 @@
     50% {fill: navajowhite;}
     100% {fill: rgb(167, 189, 189);}
 }
+
+#Ellipse_4, #Ellipse_4-2, #Ellipse_4-3{
+    animation: spark-fill1 4s infinite
+}
+
+@keyframes spark-fill1 {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+    0% {fill: rgba(47, 44, 65, 0.082);}
+    50% {fill: navajowhite;}
+    100% {fill: rgba(47, 44, 65, 0.082);} 
+}
+
+#Ellipse_7, #Ellipse_7-2, #Ellipse_7-3{
+    animation: spark-fill2 10s 
+}
+
+@keyframes spark-fill2 {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#Ellipse_8, #Ellipse_8-2, #Ellipse_8-3{
+    animation: spark-fill3 16s 
+}
+
+@keyframes spark-fill3 {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#CTA-bottom{
+    padding: 30px 0px;
+    border-top: 3px solid #a7bdbd26;
+    margin: 50px;
+    text-align: center;  
+    background-image: url("../images/Web\ 1920\ –\ 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#button-cta-bottom{
+    margin-top: 20px;
+}
+
+

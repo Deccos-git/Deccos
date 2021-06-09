@@ -28,6 +28,7 @@ p{
     color: #2F2C41;
     font-size: 18px;
     font-weight: 100;
+    letter-spacing: 1.5px;
 }
 
 li{
@@ -37,7 +38,7 @@ li{
 #menu{
     display: flex;
     list-style: none;
-    background-color: rgba(47, 44, 65, 0.082);
+    background-color: #a7bdbd26;
     margin: 0px;
 }
 
