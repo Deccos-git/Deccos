@@ -42,6 +42,31 @@ li{
     margin: 0px;
 }
 
+#menu-mobile{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    background-color: #a7bdbd26;
+    margin: 0px;
+}
+
+#menu-items-mobile{
+    display: none;
+    flex-direction: column;
+}
+
+#menu-mobile a{
+    text-decoration: none;
+    color: #2F2C41;
+}
+
+#menu-mobile li{
+    margin: 15px;
+    cursor: pointer;
+
+}
+
 #menu a{
     text-decoration: none;
     color: #2F2C41;
@@ -120,4 +145,31 @@ ul{
 
 #footer h2{
     text-align: left;
+}
+
+@media only screen and (max-width: 938px){
+
+    #menu-mobile-top{
+        display: flex;
+        align-items: center;
+    }
+
+    #hamburger-menu{
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    #menu-mobile{
+        display: flex;
+    }
+
+    #footer {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #menu{
+        display: none;
+    }
 }

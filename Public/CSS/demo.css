@@ -1,3 +1,39 @@
 #demo-section{
     margin: 30px 100px;
 }
+
+#work-in-progress-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+#work-in-progress-div img{
+    width: 10%;
+}
+
+#maillist-form {
+    padding: 20px;
+    background-color: #a7bdbd45;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    border: 1px solid lightgray;
+}
+
+#mc-embedded-subscribe-form {
+    width: 100%;
+    background-color: #a7bdbd49;
+    padding: 0px !important;
+}
+
+#photo-gijs {
+    height: 80px;
+    width: 80px !important;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
