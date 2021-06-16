@@ -8,6 +8,7 @@ h1{
     font-size: 35px;
     color: #d11237;
     text-align: center;
+    margin: 30px 20px;
 }
 
 h2{
@@ -81,6 +82,8 @@ li{
 #menu-items{
     display: flex;
     margin-left: 50px;
+    align-items: center;
+    margin-bottom: 18px;
 }
 
 #menu-items li{
@@ -91,6 +94,14 @@ li{
 
 #menu-items li:hover{
     font-weight: bold;
+}
+
+.logo-menu{
+    height: 70px;
+}
+
+.logo-menu-mobile{
+    height: 50px;
 }
 
 .button-general{

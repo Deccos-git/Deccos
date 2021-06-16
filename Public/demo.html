@@ -12,9 +12,10 @@
     <title>Deccos</title>
 </head>
 <body>
-    <nav>
-        <ul id="menu">
-            <li> <a href="index.html"><img src="images/DeccosLogoClean.png" height="50px"alt="logo"></a></li>
+  <nav>
+    <ul id="menu">
+        <li> <a href="index.html"><img class="logo-menu" src="images/design/logo.png" alt="logo Deccos"></a></li>
+        <div id="menu-items">
             <div id="menu-items">
                 <!-- <li>Features</li>
                 <li>Prijs</li> -->
@@ -22,8 +23,25 @@
                 <li> <a href="contact.html">Contact</a></li>
                 <!-- <li>Over ons</li> -->
             </div>
-        </ul>
-    </nav>
+        </div>
+    </ul>
+</nav>
+
+<nav>
+  <ul id="menu-mobile">
+    <div id="menu-mobile-top">
+      <li> <a href="index.html"><img class="logo-menu-mobile" src="images/design/logo.png" alt="logo Deccos"></a></li>
+      <img id="hamburger-menu" src="images/design/Hamburger-menu-icon-zwart.png" alt="">
+    </div>
+      <div id="menu-items-mobile">
+        <!-- <li>Features</li>
+        <li>Prijs</li> -->
+        <li> <a href="demo.html">Demo</a></li>
+        <li> <a href="contact.html">Contact</a></li>
+        <!-- <li>Over ons</li> -->
+      </div>
+  </ul>
+</nav>
    
     <h1>Demo</h1>
 
@@ -84,7 +102,7 @@
 
     <footer id="footer">
         <div id=footer-logo-div>
-            <img src="images/DeccosLogoClean.png" alt="">
+            <img src="images/design/logo.png" alt="">
         </div>
         <div id="footer-contact-div">
             <h2>Contact</h2>
@@ -107,6 +125,7 @@
 
 <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
 <script type="text/javascript" src="JS/firebase.js"></script>
+<script type="text/javascript" src="JS/index.js"></script>
 <script type="text/javascript" src="JS/demo.js"></script>
 
 </body>

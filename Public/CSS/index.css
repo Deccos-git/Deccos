@@ -53,16 +53,12 @@
     align-self: center;
     animation: impactAnimation 12s infinite;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 @keyframes impactAnimation {
     0% {color: #2F2C41;}
     100% {color: #d11237;}
-    0% {font-weight: 100;}
-    30% {font-weight: 300;}
-    50% {font-weight: 500;}
-    80% {font-weight: 800;}
-    100% {font-weight: 900;}
 }
 
 #Impact{
@@ -92,6 +88,10 @@
 .highlight-div li{
     font-size: 20px;
     margin: 5px;
+}
+
+#why-deccos-div{
+    background-color: #a7bdbd26;
 }
 
 #photo-gijs{
@@ -184,11 +184,17 @@
     100% {opacity: 1;}
 }
 
+@keyframes spark-fill4 {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
 #CTA-bottom{
-    padding: 30px 0px;
+    padding: 80px 0px;
     border-top: 3px solid #a7bdbd26;
-    margin: 50px;
     text-align: center;  
+    margin: 0px 20px;
     background-image: url("../images/Web\ 1920\ –\ 2.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -208,6 +214,23 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.image-div svg{
+    width: 100%;
+    height: 100%;
+}
+
+#Path_78{
+    animation: spark-fill1 4s infinite
+}
+
+#Path_76{
+    animation: spark-fill4 5s infinite
+}
+
+#Path_77{
+    animation: spark-fill4 6s infinite
 }
 
 @media only screen and (max-width: 938px){
@@ -236,9 +259,17 @@
 
     .highlights-inner-div {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+    }
+
+    #community-inner-div{
+        flex-direction: column-reverse;
+    }
+
+    #impact-inner-div{
+        flex-direction: column-reverse;
     }
 
     .highlights-inner-div img{

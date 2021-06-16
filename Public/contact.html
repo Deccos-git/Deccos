@@ -14,16 +14,34 @@
 <body>
     <nav>
         <ul id="menu">
-            <li> <a href="index.html"><img src="images/DeccosLogoClean.png" height="50px"alt="logo"></a></li>
+            <li> <a href="index.html"><img class="logo-menu" src="images/design/logo.png" alt="logo Deccos"></a></li>
             <div id="menu-items">
-                <!-- <li>Features</li>
-                <li>Prijs</li> -->
-                <li> <a href="demo.html">Demo</a></li>
-                <li> <a href="contact.html">Contact</a></li>
-                <!-- <li>Over ons</li> -->
+                <div id="menu-items">
+                    <!-- <li>Features</li>
+                    <li>Prijs</li> -->
+                    <li> <a href="demo.html">Demo</a></li>
+                    <li> <a href="contact.html">Contact</a></li>
+                    <!-- <li>Over ons</li> -->
+                </div>
             </div>
         </ul>
     </nav>
+
+    <nav>
+      <ul id="menu-mobile">
+        <div id="menu-mobile-top">
+          <li> <a href="index.html"><img class="logo-menu-mobile" src="images/design/logo.png" alt="logo Deccos"></a></li>
+          <img id="hamburger-menu" src="images/design/Hamburger-menu-icon-zwart.png" alt="">
+        </div>
+          <div id="menu-items-mobile">
+            <!-- <li>Features</li>
+            <li>Prijs</li> -->
+            <li> <a href="demo.html">Demo</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            <!-- <li>Over ons</li> -->
+          </div>
+      </ul>
+  </nav>
    
     <h1>Contact</h1>
 
@@ -39,12 +57,12 @@
             </div>
             <div class="contact-item-div">
             <img src="images/design/mail-contact-item.png" alt="">
-            <p>info@vitaminds.nu</p>
+            <p>info@deccos.nl</p>
             </div>
             <div class="contact-item-div">
             <img src="images/design/location-contact-item.png" alt="">
             <div>
-                <img id="logo-contact" src="images/DeccosLogoClean.png" alt="">
+                <img id="logo-contact" src="images/design/logo.png" alt="">
                 <p>Leeuwerikstraat 20</p>
                 <p>5688 KA</p>
                 <p>Oirschot</p>
@@ -53,7 +71,7 @@
         </div>
     </section>
 
-    <section id="contact-form-section">
+    <!-- <section id="contact-form-section">
         <h2 id="question-title">Stuur een bericht</h2>
         <p>Bericht</p>
         <textarea name="" id="question-input" cols="30" rows="10" placeholder="Type hier je bericht"></textarea>
@@ -65,11 +83,11 @@
         <input id="phone-input" type="text" placeholder="Type hier je telefoonnummer">
         <button id="button-message" class="button-general">Versturen</button>
         <p id="contact-form-notice">Je bericht is verstuurd. We nemen zo snel mogelijk contact met je op.</p>
-      </section>
+      </section> -->
 
     <footer id="footer">
         <div id=footer-logo-div>
-            <img src="images/DeccosLogoClean.png" alt="">
+            <img src="images/design/logo.png" alt="">
         </div>
         <div id="footer-contact-div">
             <h2>Contact</h2>
@@ -92,6 +110,7 @@
 
 <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
 <script type="text/javascript" src="JS/firebase.js"></script>
+<script type="text/javascript" src="JS/index.js"></script>
 <script type="text/javascript" src="JS/contact.js"></script>
 
 </body>
